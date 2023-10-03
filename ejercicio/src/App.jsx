@@ -3,6 +3,7 @@ import Panel from './components/Panel/Panel';
 import Loader from "./components/Loader/Loader";
 import { useState } from 'react';
 import "./App.css"
+import Password from './components/Password/Password';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <p>Este es el contenido que se mostrará cuando se expanda el panel.</p>
       </Panel>
     </div>
+      <Password></Password>
     </>
   );
 }
