@@ -1,0 +1,11 @@
+.panel{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    
+}
+.panel-content{
+    background-color: brown;
+}
